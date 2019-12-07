@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+	<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	
+	<title>FreeBandCamp</title>
+	
+	<!--  Bootstrap -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+	</head>
+	<body>
+		<div class="jumbotron">
+			<div class="container">
+			<h1 class="text-center"><span class="text-primary">Free</span>BandCamp</h1>
+			
+			<h2 class="text-center">BandCamp音乐下载链接解析</font></h2>
+			</div>
+		</div>
+		
+		<div class="container">
+			<form action="download.php" method="post">
+				<div class="form-group">
+					<label>BandCamp音乐专辑地址：</label>
+					<input name="url"  type="text" class="form-control"  placeholder="URL">
+				</div>
+				<button type="submit" class="btn btn-block btn-primary">提交</button>
+			</form>
+			<br>
+			<span><font color="gray">请输入专辑的URL，例：https://xxxxxxx.bandcamp.com(歌手主页)/album/the-butterflies(歌手专辑)</font></span>
+			<br>
+			<br>
+			<div class="text-center text-muted">
+				&copy;<a href="http://www.abotaku.cn">Abotaku</a>
+			</div>
+		</div>
+	
+	
+	<script src="https://cdn.jsdelivr.net/npm/jquery@1.12.4/dist/jquery.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js"></script>
+	</body>
+</html>
